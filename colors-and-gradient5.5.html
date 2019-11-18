@@ -51,6 +51,8 @@ figcaption {
         width: 210px;        
         background-color: #CCC;
         color: white;
+        border-left: 1px solid rgba(255,255,255, 0.3);
+        border-right: 1px solid rgba(0,0,0, 0.3);
     }
 
     li {
@@ -59,5 +61,13 @@ figcaption {
         font-size: 0.9em;
         width: 50px;
         text-align: center;
+    }
+    
+    li:first-child {
+        border-left: none;
+    }
+    
+    li:last-child {
+        border-right: none;
     }
 </style>
