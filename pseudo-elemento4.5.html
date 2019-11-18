@@ -1,0 +1,35 @@
+<div class="container">
+    <p class="help">
+        Preencha o campo com um e-mail válido, assim poderemos entrar em contato com você para informar o resultado do nosso concurso.
+    </p>        
+</div>
+
+<style>
+    .container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .help{
+        background-color: #F1EFE6;
+        border: 1px solid #d3CDAE;
+        font-size: 0.9em;
+        padding: 10px;
+        position: relative;
+        width: 300px;
+    }
+
+    .help::before {
+        content: "";
+        border-color: transparent #D3CDAE transparent transparent;
+        border-style: solid;
+        border-width: 14px;
+        left: -28px;
+        position: absolute;
+        margin-top: -14px;
+        top: 50%;
+    }
+
+</style>

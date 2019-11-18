@@ -1,0 +1,29 @@
+<div class="container">
+    <p class="tip">
+        Você sabia que...
+    </p>        
+</div>
+
+<style>
+    .container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .help{
+        background-color: #F1EFE6;
+        border: 1px solid #d3CDAE;
+        font-size: 0.9em;
+        padding: 10px;
+        position: relative;
+        width: 300px;
+    }
+
+    .tip::before {
+        content: "\261E";
+        margin-right: 10px;        
+    }
+
+</style>
