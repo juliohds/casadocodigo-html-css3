@@ -1,0 +1,56 @@
+<h1>Reforços da Plataformatec em 2012</h1>
+
+<ul>
+    <li>
+        <img src='images/me.jpeg' alt='Carlos Galdino'>
+        <span>Carlos Galdino</span>
+    </li>
+    <li>
+        <img src='images/me.jpeg' alt='Erich Kist'>
+        <span>Erich Kist</span>
+    </li>
+    <li>
+        <img src='images/me.jpeg' alt='Lucas Mazza'>
+        <span>Lucas Mazza</span>
+    </li>
+    <li>
+        <img src='images/me.jpeg' alt='Rondy Sousa'>
+        <span>Rondy Sousa</span>
+    </li>
+</ul>
+
+
+<style>
+
+    ul {
+        list-style: none;
+        padding: 0;
+    }
+    li {
+        float: left;
+        margin-left: 10px;
+        position: relative;
+        transition: transform 0.2s linear;
+    }
+    span {
+        color: #153755;
+        display: block;
+        font-weight: bold;
+        margin-top: 5px;
+        text-align: center;
+    }
+
+    li:nth-child(even) {
+        transform: rotate(5deg);
+    }
+
+    li:nth-child(odd) {
+        transform: rotate(-5deg);
+    }
+
+    li:hover {
+        transform: scale(1.3);
+        z-index: 1;
+    }
+
+</style>

@@ -1,0 +1,32 @@
+<div id="cube">
+    <div id="child">
+    </div>
+</div>
+
+<style>
+
+#cube > div:first-child  {
+transform: rotateX(90deg) translateZ(200px);
+}
+
+#cube > div:nth-child(2) {
+transform: translateZ(200px);
+}
+
+#cube > div:nth-child(3) {
+transform: rotateY(90deg) translateZ(200px);
+text-align: center;
+}
+
+#cube > div:nth-child(4) {
+transform: rotateY(180deg) translateZ(200px);
+}
+
+#cube > div:nth-child(5) {
+transform: rotateY(-90deg) translateZ(200px);
+}
+
+#cube > div:nth-child(6) {
+transform: rotateX(-90deg) rotate(180deg) translateZ(200px);
+}
+</style>
